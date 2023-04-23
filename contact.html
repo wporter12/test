@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=<>, initial-scale=1.0">
+        <title>Contact</title>
+        <style>
+            img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            }
+        </style>
+        <link href="styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="left-side">
+                    <div class="nav-link-wrapper">
+                        <a href="index.html">Home</a>
+                    </div>
+    
+                    <div class="nav-link-wrapper">
+                        <a href="locations.html">Locations</a>
+                    </div>
+    
+                    <div class="nav-link-wrapper">
+                        <a href="reviews.html">Reviews</a>
+                    </div>
+    
+                    <div class="nav-link-wrapper">
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="images/logo.png" alt="aji logo" class="center">
+            <div class="container1">
+                <h1>Contact Us</h1>
+                <p>We would love to answer any question you may have. Feel free to get in touch with us!</p>
+                <div class="contact-box">
+                    <div class="contact-left">
+                        <h3>Send your request</h3>
+                        <div name="myForm">
+                            
+                            <div class="input-row">
+                                <div class="input-group">
+                                    <label>Name</label>
+                                    <input type="text" placeholder="John Doe" id="contact-name" onkeyup="validateName()">
+                                    <span id="name-error"></span>
+                                </div>
+                                <div class="input-group">
+                                    <label>Phone</label>
+                                    <input type="tel" placeholder="123.456.7890" id="contact-phone" onkeyup="validatePhone()">
+                                    <span id="phone-error"></span>
+                                </div>
+                            </div>
+                            <div class="input-row">
+                                <div class="input-group">
+                                    <label>Email</label>
+                                    <input type="email" placeholder="johndoe@gmail.com" id="contact-email" onkeyup="validateEmail()">
+                                    <span id="email-error"></span>
+                                </div>
+                                <div class="input-group">
+                                    <label>Subject</label>
+                                    <input type="text" placeholder="Subject" id="contact-subject" onkeyup="validateSubject()">
+                                    <span id="subject-error"></span>
+                                </div>
+                            </div>
+    
+                            <div class="input-group">
+                            <label>Message</label>
+                            <textarea rows="5" placeholder="Your Message Here" id="contact-message" onkeyup="validateMessage()"></textarea>
+                            <span id="message-error"></span>
+                            </div>
+    
+                            <button>SEND</button>
+                            <span id="submit-error"></span>
+                        </form>
+                        <script src="myscript.js"></script>
+                    </div>
+                </div>
+                    <div class="contact-right">
+                        <h3>Reach Us</h3>
+    
+                        <table>
+                            <tr>
+                                <td>Email:</td>
+                                <td>alexanderjamesinvestments@gmail.com</td>
+                            </tr> 
+                            <tr>
+                                <td>Phone:</td>
+                                <td>(662)587-4799</td>
+                            </tr>
+                        </table>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
